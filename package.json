@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "build": "bower install && grunt",
     "start": "node server.js"
   },
   "dependencies": {
@@ -16,7 +17,7 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-env": "~0.4.1",
     "grunt-nodemon": "~0.2.1",
-    "grunt-sass": "^0.11.0",
+    "grunt-sass": "^1.0.0",
     "jade": "*",
     "lodash": "^2.4.1",
     "passport": "0.1.17",
